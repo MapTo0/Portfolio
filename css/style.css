@@ -1,0 +1,31 @@
+#intro-btn {
+    display: inline-block;
+}
+.reds {
+    color:rgb(249, 38, 114);
+}
+#about {
+    font-family:"proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    width: 40%
+}
+#image {
+    margin: 2% 1%;
+}
+.navbar-inverse {
+    height:70px;
+}
+#s-example-navbar-collapse-1 {
+    text-align: right;
+}
+#social li {
+    display: inline-block;
+
+
+}
+#social {
+    float:right;
+    display: inline;
+}
