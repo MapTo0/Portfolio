@@ -4,74 +4,75 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Main Page</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap -->
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="http://bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 
-<body>
-    <div>
-        <header class="navbar-inverse" role="banner">
-            <div class="container">
-                <nav role="navigation">
-                    <div class="container-fluid">
-                        <!-- Brand and toggle get grouped for better mobile display -->
+<body id="body">
+
+    <div id="wrapper">
+        <header>
+            <nav>
+                <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="container" id="no-style-container">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Brand</a>
                         </div>
-
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#">Link</a>
+                                <li class="active"><a href="index.html">Home</a>
                                 </li>
-                                <li><a href="#">Link</a>
+                                <li><a href="About.html">About</a>
                                 </li>
-                            </ul>
-                            </li>
+                                <li><a href="Portfolio.html">Portfolio</a>
+                                </li>
+                                <li><a href="Contact.html">Contacts</a>
+                                </li>
                             </ul>
                         </div>
-
-                        <!-- /.navbar-collapse -->
                     </div>
-                    <!-- /.container-fluid -->
-
-                </nav>
-
+                </div>
+            </nav>
         </header>
-
-        <div class="container">
-            <img src="images/profile.png" id="image">
-            <aside id="about">
-                <p>
-                    <strong>
-                        <span class="reds">&ltHello</span>, I am Martin and I am trying to make the internet better place for you.
-                        <span class="reds">/&gt</span>
-                    </strong>
-                    <p>
-                        <button type="button" class="btn btn-default btn-lg" id="intro-btn">
-                            <span class="glyphicon glyphicon-off"></span>
-                        </button>
+        <section id="main">
+            <img src="images/profile.png" id="profile-pic">
+            <aside id="summary">
+                <h1 id="coder">&lt;Hello&gt;</h1>
+                <p id="summary-p">&lt;
+                    <span class="reds">Front-end </span>developer who is trying to make the internet better place for you.
+                    <span class="reds">/</span>&gt</p>
             </aside>
 
-        </div>
 
-        </div>
+        </section>
+
     </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </body>
 
 </html>

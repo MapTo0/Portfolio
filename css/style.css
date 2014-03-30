@@ -1,31 +1,355 @@
-#intro-btn {
-    display: inline-block;
+body .navbar {
+    min-height: 0px;
 }
 .reds {
-    color:rgb(249, 38, 114);
+    color:red;
 }
-#about {
-    font-family:"proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-    display: inline-block;
-    font-size: 20px;
-    text-align: center;
-    width: 40%
+#body {
+    background: #f8f8f8 url(images/bg-grey.png) repeat;
 }
-#image {
-    margin: 2% 1%;
+.titles {
+    text-align:left;
+    font-family: Rockwell;
+    display:inline;
 }
-.navbar-inverse {
-    height:70px;
+@media(min-width: 768px) {
+    .navbar {
+        -webkit-animation: myfirst 0.5s;
+        /* Chrome, Safari, Opera */
+        animation: myfirst 0.5s;
+    }
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes myfirst {
+        from {
+            height: 0px;
+        }
+        to {
+            height: 70px;
+        }
+    }
+    .ul li, aside p, h1, img, article, aside {
+        -webkit-animation: mySecond 1s;
+        /* Chrome, Safari, Opera */
+        animation: MySecond 1s;
+    }
+    @-webkit-keyframes mySecond {
+        from {
+            opacity: 0.0
+        }
+        to {
+            opacity: 1.0
+        }
+    }
+    .navbar > .container {
+        text-align: center;
+    }
+    .navbar-header, .navbar-brand, .navbar .navbar-nav, .navbar .navbar-nav > li {
+        float: none;
+        display: inline-block;
+        padding-right: 40px;
+        font-family: Rockwell;
+        font-size: 24px;
+        height: 70px;
+        padding-top: 5px;
+    }
+    .collapse.navbar-collapse {
+        width: auto;
+        clear: none;
+    }
+    #no-style-container {
+        height: 70px;
+    }
+    #wrapper {
+        width:752px;
+        margin:0 auto;
+    }
+    #profile-pic {
+        margin-top:100px;
+        width:60%;
+    }
+    #summary {
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        margin-left: -18%;
+    }
+    #coder {
+        font-family: Rockwell;
+        font-weight: bold;
+        font-size:50px;
+    }
+    #summary-p {
+        font-family: Rockwell;
+        font-weight: bold;
+        font-size:20px;
+    }
+    footer {
+        border-top: 1px solid #CFCFCF;
+        padding-top: 1%;
+        padding-left: 15%;
+        font-family: Rockwell;
+    }
+    /* End of Index */
+    #profile-about {
+        display: inline;
+        width:45%;
+    }
+    #p-about {
+        margin-top: 5%;
+    }
+    #about {
+        display: inline-block;
+        text-align: left;
+        width: 53%;
+        margin-top: 15%;
+        font-family: Rockwell;
+    }
+    #p-about, .skills-list li {
+        text-align: left;
+        color:grey;
+        font-size: 17px;
+        font-family: Rockwell;
+    }
+    #main {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .skills-list, .bracket {
+        display:inline;
+    }
+    .bracket {
+        margin-left: 0%;
+        font-size: 36px;
+    }
+    #ninja {
+        display: inline;
+        margin-bottom: 40%;
+        width: 40%;
+    }
+    .skills-section {
+        width:20%;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left:15%;
+    }
+    .about-section {
+        text-align: center;
+        margin-top:5%;
+    }
+    #stuff {
+        margin-top: -30%;
+    }
+    #macbook {
+        width: 60%;
+        float: right;
+        margin-top: -25%;
+    }
+    /*End of about*/
+    #projects {
+        display:block;
+        margin-top:20%;
+        font-family: Rockwell;
+        text-align: center;
+    }
+    #calcitup-h {
+        text-align: center;
+        font-family: Rockwell;
+    }
+    /*End of Portfolio*/
+    #contact-me-h {
+        display: block;
+        margin-top: 20%;
+    }
+    #skype {
+        width: 7%;
+    }
+    #connect-list {
+        margin-top:5%;
+    }
+    #connect-list li {
+        padding-top: 2%;
+    }
+    #email-form {
+        position: relative;
+        top:100px;
+        padding-top: 5%;
+        text-align: center;
+    }
+    a label {
+        padding-left: 1%;
+    }
+    section .container {
+        width: 100%;
+    }
+    #info-form {
+        position: relative;
+        right: 120px;
+        bottom: 10px;
+    }
+    #ninja-pic {
+        float: right;
+        width: 50%;
+        display: inline;
+        margin-top: -45%;
+    }
+    /*End of Contacts*/
 }
-#s-example-navbar-collapse-1 {
-    text-align: right;
-}
-#social li {
-    display: inline-block;
-
-
-}
-#social {
-    float:right;
-    display: inline;
+@media (max-width: 768px) {
+    .navbar > .container {
+        text-align: center;
+    }
+    .navbar-header, .navbar-brand, .navbar .navbar-nav, .navbar .navbar-nav > li {
+        float: none;
+        font-family: Rockwell;
+        font-size: 24px;
+    }
+    .collapse.navbar-collapse {
+        width: auto;
+        clear: none;
+    }
+    #wrapper {
+        display: block;
+        margin: 0 auto;
+    }
+    #profile-pic {
+        display: block;
+        width:60%;
+        margin: 0 auto;
+        margin-top:70px;
+    }
+    #summary {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    #coder {
+        text-align: center;
+        font-family: Rockwell;
+        font-weight: bold;
+        font-size:50px;
+    }
+    #summary-p {
+        font-family: Rockwell;
+        font-weight: bold;
+        font-size:20px;
+    }
+    footer {
+        border-top: 1px solid #CFCFCF;
+        padding-top: 1%;
+        font-family: Rockwell;
+    }
+    /* End of Index */
+    #profile-about {
+        display: block;
+        width:50%;
+        margin: 0 auto;
+    }
+    article h1 {
+        font-size: 200%;
+        font-family: Rockwell;
+    }
+    #about {
+        text-align: left;
+        width: 70%;
+        margin-top: 25%;
+        margin-left: 20%;
+        font-family: Rockwell;
+    }
+    #p-about, .skills-list li, {
+        text-align: left;
+        color:grey;
+        font-size: 100%;
+        font-family: Rockwell;
+    }
+    #p-about {
+        margin-top: 5%;
+    }
+    #main {
+        text-align: left;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .skills-list, .bracket {
+        display:inline;
+        font-family: Rockwell;
+    }
+    .bracket {
+        margin-left: 0%;
+        font-size: 200%;
+    }
+    #ninja {
+        display: inline;
+        margin-bottom: 70%;
+        width: 45%;
+        vertical-align: middle;
+    }
+    .skills-section {
+        width:30%;
+        display: inline-block;
+        margin-left:15%;
+    }
+    .about-section {
+        text-align: left;
+        margin-top:-5%;
+    }
+    #stuff {
+        margin-top: -30%;
+        margin-left: 20%;
+    }
+    #macbook {
+        display:block;
+        width:80%;
+    }
+    /*End of About*/
+    #projects {
+        display:block;
+        margin-top:20%;
+        font-family: Rockwell;
+        text-align: center;
+    }
+    #calcitup-h {
+        text-align: center;
+        font-family: Rockwell;
+    }
+    /*End of Portfolio*/
+    #contact-me-h {
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+    }
+    #skype {
+        width: 7%;
+    }
+    .icons{
+        width:7%;
+    }
+    #connect-list {
+        margin-top:5%;
+        margin-bottom: 8%;
+    }
+    #connect-list li {
+        padding-top: 2%;
+    }
+    a label {
+        font-size: 90%;
+        padding-left: 1%;
+    }
+    section .container {
+        width: 100%;
+    }
+    #info-form {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: -10%;
+    }
+    #ninja-pic {
+      display: none;
+    }
+    /*End of Contacts*/
+    #contact{
+        display: none;
+    }
 }
