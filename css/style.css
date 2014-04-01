@@ -163,6 +163,7 @@ body .navbar {
     }
     #connect-list {
         margin-top:5%;
+        list-style: none;
     }
     #connect-list li {
         padding-top: 2%;
