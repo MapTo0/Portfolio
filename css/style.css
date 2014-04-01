@@ -282,7 +282,7 @@ body .navbar {
     }
     #ninja {
         display: inline;
-        margin-bottom: 70%;
+        margin-bottom: 30%;
         width: 45%;
         vertical-align: middle;
     }
@@ -290,6 +290,9 @@ body .navbar {
         width:30%;
         display: inline-block;
         margin-left:15%;
+    }
+    #skills{
+        margin-top: 10%;
     }
     .about-section {
         text-align: left;
