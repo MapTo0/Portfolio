@@ -13,6 +13,7 @@ body .navbar {
     display:inline;
 }
 @media(min-width: 768px) {
+    /*Some animation action*/
     .navbar {
         -webkit-animation: myfirst 0.5s;
         /* Chrome, Safari, Opera */
@@ -27,6 +28,7 @@ body .navbar {
             height: 70px;
         }
     }
+    /*---------------------------------*/
     .ul li, aside p, h1, img, article, aside {
         -webkit-animation: mySecond 1s;
         /* Chrome, Safari, Opera */
@@ -40,6 +42,7 @@ body .navbar {
             opacity: 1.0
         }
     }
+    /*End of animation action*/
     .navbar > .container {
         text-align: center;
     }
@@ -91,7 +94,6 @@ body .navbar {
     }
     /* End of Index */
     #profile-about {
-        display: inline;
         width:45%;
     }
     #p-about {
@@ -160,9 +162,6 @@ body .navbar {
         display: block;
         margin-top: 20%;
     }
-    #skype {
-        width: 7%;
-    }
     #connect-list {
         margin-top:5%;
     }
@@ -185,6 +184,9 @@ body .navbar {
         position: relative;
         right: 120px;
         bottom: 10px;
+    }
+    .icons {
+        width:7%;
     }
     #ninja-pic {
         float: right;
@@ -236,7 +238,7 @@ body .navbar {
     }
     footer {
         border-top: 1px solid #CFCFCF;
-        padding-top: 1%;
+        adding-top: 1%;
         font-family: Rockwell;
     }
     /* End of Index */
@@ -318,10 +320,7 @@ body .navbar {
         text-align: center;
         margin-top: 20%;
     }
-    #skype {
-        width: 7%;
-    }
-    .icons{
+    .icons {
         width:7%;
     }
     #connect-list {
@@ -346,10 +345,10 @@ body .navbar {
         padding-left: -10%;
     }
     #ninja-pic {
-      display: none;
+        display: none;
     }
     /*End of Contacts*/
-    #contact{
+    #contact {
         display: none;
     }
 }
